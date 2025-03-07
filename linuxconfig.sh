@@ -4,5 +4,5 @@ while [[ ! -z "$(ps aux | grep 'apt-get update' | grep -v 'grep')" ]]; do
     sleep 10
 done
 sudo apt-get update 
-sudo apt-get -y install python3-pip 
-sudo apt -y install python3-azure 
+sudo apt-get install python3-pip -y
+sudo apt  install python3-azure -y
