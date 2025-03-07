@@ -1,6 +1,7 @@
 #!/bin/sh
 
 sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install python3-pip -y
-sudo apt install python3-azure -y
+sudo apt-get -y upgrade 
+sudo apt-get -y install python3-pip 
+sudo apt update
+sudo apt -y install python3-azure 
